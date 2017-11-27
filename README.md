@@ -17,7 +17,6 @@ for lines in file_in:
 	search = re.search(">",lines)
 	if search:
 		header = lines
-#		print header
 	else:
 		#n = 20
 		#sequences= [lines[i:i+n] for i in range(0,len(lines)-20,n)]
