@@ -1,8 +1,6 @@
 # CRISPR_Cas9_gRNA
 gRNAs were designed for exonic regions of specific genes using certain specific conditions to increase specificity of spCAS9 (NAG and NGG) PAM sequences.
-***CODE STARTS HERE
-
-
+***CODE STARTS HERE***
 import re
 file_in = open("hg19.fasta", "r") #input file
 pattern0 ='GGG'
